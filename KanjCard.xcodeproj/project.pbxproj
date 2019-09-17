@@ -15,10 +15,10 @@
 		A3D7714B233119B800188245 /* BackgroundAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7714A233119B800188245 /* BackgroundAnimationViewController.swift */; };
 		A3D7714D23311A3E00188245 /* CustomKolodaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7714C23311A3E00188245 /* CustomKolodaView.swift */; };
 		A3D771532331300700188245 /* BackgroundKolodaAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D771522331300700188245 /* BackgroundKolodaAnimator.swift */; };
-		A3D7715723313BCF00188245 /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D7715523313BCF00188245 /* CustomOverlayView.xib */; };
 		A3D7715B23313EB800188245 /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3D7715A23313EB800188245 /* OverlayView.xib */; };
 		A3D7715D23313EE400188245 /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7715C23313EE400188245 /* ExampleOverlayView.swift */; };
-		A3D7715F23313FBC00188245 /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D7715E23313FBC00188245 /* CustomOverlayView.swift */; };
+		A3E6008723314C760001F60E /* KanjiCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3E6008623314C760001F60E /* KanjiCardView.xib */; };
+		A3E6008B23314D110001F60E /* KanjiCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E6008A23314D110001F60E /* KanjiCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +32,10 @@
 		A3D7714A233119B800188245 /* BackgroundAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAnimationViewController.swift; sourceTree = "<group>"; };
 		A3D7714C23311A3E00188245 /* CustomKolodaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKolodaView.swift; sourceTree = "<group>"; };
 		A3D771522331300700188245 /* BackgroundKolodaAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundKolodaAnimator.swift; sourceTree = "<group>"; };
-		A3D7715523313BCF00188245 /* CustomOverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
 		A3D7715A23313EB800188245 /* OverlayView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
 		A3D7715C23313EE400188245 /* ExampleOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
-		A3D7715E23313FBC00188245 /* CustomOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
+		A3E6008623314C760001F60E /* KanjiCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KanjiCardView.xib; sourceTree = "<group>"; };
+		A3E6008A23314D110001F60E /* KanjiCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KanjiCardView.swift; sourceTree = "<group>"; };
 		AAEA0A3A20431869E7FB6EE2 /* Pods-KanjCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KanjCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KanjCard/Pods-KanjCard.debug.xcconfig"; sourceTree = "<group>"; };
 		F76E153B9834B59CA819B99E /* Pods_KanjCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KanjCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -98,10 +98,10 @@
 				A3D7714A233119B800188245 /* BackgroundAnimationViewController.swift */,
 				A3D7714C23311A3E00188245 /* CustomKolodaView.swift */,
 				A3D771522331300700188245 /* BackgroundKolodaAnimator.swift */,
-				A3D7715523313BCF00188245 /* CustomOverlayView.xib */,
 				A3D7715A23313EB800188245 /* OverlayView.xib */,
 				A3D7715C23313EE400188245 /* ExampleOverlayView.swift */,
-				A3D7715E23313FBC00188245 /* CustomOverlayView.swift */,
+				A3E6008623314C760001F60E /* KanjiCardView.xib */,
+				A3E6008A23314D110001F60E /* KanjiCardView.swift */,
 			);
 			path = KanjCard;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 				A3D7714323310AAF00188245 /* LaunchScreen.storyboard in Resources */,
 				A3D7714023310AAF00188245 /* Assets.xcassets in Resources */,
 				A3D7715B23313EB800188245 /* OverlayView.xib in Resources */,
-				A3D7715723313BCF00188245 /* CustomOverlayView.xib in Resources */,
+				A3E6008723314C760001F60E /* KanjiCardView.xib in Resources */,
 				A3D7713E23310AAD00188245 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,9 +224,9 @@
 			files = (
 				A3D771532331300700188245 /* BackgroundKolodaAnimator.swift in Sources */,
 				A3D7714D23311A3E00188245 /* CustomKolodaView.swift in Sources */,
-				A3D7715F23313FBC00188245 /* CustomOverlayView.swift in Sources */,
 				A3D7715D23313EE400188245 /* ExampleOverlayView.swift in Sources */,
 				A3D7713923310AAD00188245 /* AppDelegate.swift in Sources */,
+				A3E6008B23314D110001F60E /* KanjiCardView.swift in Sources */,
 				A3D7714B233119B800188245 /* BackgroundAnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
