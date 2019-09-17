@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BackgroundAnimationViewController
 //  KanjCard
 //
 //  Created by Prince Kumar on 2019/09/17.
@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import Koloda
 
-class ViewController: UIViewController {
+
+class BackgroundAnimationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
